@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+body,td,th {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFDFD;
+    font-size: 16px;
+}
+body {
+    background-color: #D80065;
+    background-image: url();
+    background-repeat: no-repeat;
+}
+.logo {
+    margin-left: 0px;
+    padding-left: 470px;
+    background-color: #91C44E;
+}
+body header table {
+    background-color: #FFFFFF;
+}
+#botondondecomprar {
+    margin-left: 256px;
+}
+.form-group #emailHelp1 {
+}
+.btn.btn-primary {
+}
+body table tbody {
+    margin-left: 42px;
+}

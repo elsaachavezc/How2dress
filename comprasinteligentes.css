@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+* 				{ margin:0; padding:0;}
+
+.wrapper 		{ width:80%; height:100vh; background-color:#fff; margin:0 auto; overflow:
+				hidden;}
+				
+.slider 		{ width:100%;}
+
+.slider li 		{ width:100%; float:left;}
+
+.slider img 	{ width:100%; height:auto;}
+
+.slider ul 		{ list-style-type:none; width:400%; display:flex; animation:slider 5s infinite alternate;}
+
+@keyframes slider {
+	
+	0% 			{ margin-left:0;}
+	20% 		{ margin-left:0;}
+	
+	30% 		{ margin-left:-100%;}
+	50% 		{ margin-left:-100%;}
+	
+	60% 		{ margin-left:-200%;}
+	80% 		{ margin-left:-200%;}
+	
+	90% 		{ margin-left:-300%;}
+	100% 		{ margin-left:-300%;}
+	
+	}
+body,td,th {
+    color: #FFFDFD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: #D80065;
+    background-image: url();
+    background-repeat: no-repeat;
+}
+.logo {
+    margin-left: 0px;
+    padding-left: 470px;
+    background-color: #91C44E;
+}
+body header table {
+    background-color: #FFFFFF;
+}
+#botondondecomprar {
+    margin-left: 256px;
+}
+#carouselExampleSlidesOnly .carousel-inner .carousel-item.active {
+    width: 54%;
+    margin-left: 303px;
+    background-color: #F9F9F9;
+}
